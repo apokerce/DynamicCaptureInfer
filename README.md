@@ -7,9 +7,9 @@ $  g++ main.cpp -o output -std=c++11 `pkg-config --cflags --libs opencv` -pthrea
 ### To use the code:
 
 #### For all labels
-
-    ./output --camera 0 --label --save_image true
-
+```shell
+$  ./output --camera 0 --label --save_image true
+```
 #### For only one label
 ```shell
 $  ./output --camera 0 --label "type here" --save_image true
